@@ -26,7 +26,7 @@
     "C_Cpp.formatting": "Disabled",
     "uncrustify.configPath.linux": "/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg",
     "[cpp]": {
-        "editor.defaultFormatter": "zachflower.uncrustify"
+        "editor.defaultFormatter": "ms-iot.vscode-ros"
     },
     "search.exclude": {
         "**/node_modules": true,
@@ -70,5 +70,12 @@
         ".vscode",
         ".vscode-insiders",
         ".devcontainer/devcontainer.json"
-    ]
+    ],
+    "editor.fontFamily": "\"Source Code Pro\"",
+    "editor.fontSize": 16,
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    },
+    "python.formatting.provider": "black"
 }
